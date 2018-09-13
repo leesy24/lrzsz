@@ -1,0 +1,19 @@
+Source: lrzsz
+Section: comm
+Priority: optional
+Maintainer: Martin A. Godisch <godisch@debian.org>
+Standards-Version: 3.9.5
+Build-Depends: autotools-dev, gettext
+Homepage: https://ohse.de/uwe/software/lrzsz.html
+
+Package: lrzsz
+Architecture: any
+Depends: ${shlibs:Depends}
+Suggests: minicom
+Description: Tools for zmodem/xmodem/ymodem file transfer
+ Lrzsz is a cosmetically modified zmodem/ymodem/xmodem package built
+ from the public-domain version of Chuck Forsberg's rzsz package.
+ .
+ These programs use error correcting protocols ({z,x,y}modem) to send
+ (sz, sx, sb) and receive (rz, rx, rb) files over a dial-in serial port
+ from a variety of programs running under various operating systems.
