@@ -1,0 +1,3 @@
+crctab.o: crctab.c /usr/include/stdc-predef.h
+crctab.c :
+/usr/include/stdc-predef.h :
