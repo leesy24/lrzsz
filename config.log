@@ -1,0 +1,265 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:570: checking for a BSD compatible install
+configure:623: checking whether build environment is sane
+configure:680: checking whether make sets ${MAKE}
+configure:726: checking for working aclocal
+configure:739: checking for working autoconf
+configure:752: checking for working automake
+configure:765: checking for working autoheader
+configure:778: checking for working makeinfo
+configure:929: checking for gcc
+configure:1042: checking whether the C compiler (arm-linux-gcc  ) works
+configure:1058: arm-linux-gcc -o conftest    conftest.c  1>&5
+configure:1084: checking whether the C compiler (arm-linux-gcc  ) is a cross-compiler
+configure:1089: checking whether we are using GNU C
+configure:1098: arm-linux-gcc -E conftest.c
+configure:1117: checking whether arm-linux-gcc accepts -g
+configure:1149: checking how to run the C preprocessor
+configure:1170: arm-linux-gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1238: checking whether arm-linux-gcc needs -traditional
+configure:1286: checking for ranlib
+configure:1314: checking for POSIXized ISC
+configure:1335: checking for AIX
+configure:1360: checking for minix/config.h
+configure:1370: arm-linux-gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1366:26: error: minix/config.h: No such file or directory
+configure: failed program was:
+#line 1365 "configure"
+#include "confdefs.h"
+#include <minix/config.h>
+configure:1411: checking for arm-linux-gcc option to accept ANSI C
+configure:1464: arm-linux-gcc  -c -g -O2  conftest.c 1>&5
+configure:1490: checking for function prototypes
+configure:1649: checking for working const
+configure:1703: arm-linux-gcc -c -g -O2  conftest.c 1>&5
+configure:1724: checking for inline
+configure:1738: arm-linux-gcc -c -g -O2  conftest.c 1>&5
+configure:1789: checking for syslog in -lsocket
+configure:1808: arm-linux-gcc -o conftest -g -O2   conftest.c -lsocket   1>&5
+/opt/lemonix/cdt/bin/../lib/gcc/arm-linux-gnueabi/4.1.1/../../../../arm-linux-gnueabi/bin/ld: cannot find -lsocket
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 1797 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char syslog();
+
+int main() {
+syslog()
+; return 0; }
+configure:1931: checking for ANSI C header files
+configure:1944: arm-linux-gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:2038: checking for fcntl.h
+configure:2048: arm-linux-gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:2038: checking for limits.h
+configure:2048: arm-linux-gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:2038: checking for sys/ioctl.h
+configure:2048: arm-linux-gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:2038: checking for sys/time.h
+configure:2048: arm-linux-gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:2038: checking for unistd.h
+configure:2048: arm-linux-gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:2038: checking for sys/times.h
+configure:2048: arm-linux-gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:2079: checking for termios.h
+configure:2089: arm-linux-gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:2079: checking for sys/termios.h
+configure:2089: arm-linux-gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:2079: checking for termio.h
+configure:2089: arm-linux-gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:2079: checking for sys/termio.h
+configure:2089: arm-linux-gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:2085:24: error: sys/termio.h: No such file or directory
+configure: failed program was:
+#line 2084 "configure"
+#include "confdefs.h"
+#include <sys/termio.h>
+configure:2079: checking for sgtty.h
+configure:2089: arm-linux-gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:2119: checking for termios.h
+configure:2119: checking for sys/termios.h
+configure:2119: checking for termio.h
+configure:2119: checking for sys/termio.h
+configure:2119: checking for sgtty.h
+configure:2159: checking for sys/mman.h
+configure:2169: arm-linux-gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:2159: checking for utime.h
+configure:2169: arm-linux-gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:2159: checking for syslog.h
+configure:2169: arm-linux-gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:2159: checking for sys/syslog.h
+configure:2169: arm-linux-gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:2159: checking for sys/param.h
+configure:2169: arm-linux-gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:2199: checking for sys/select.h
+configure:2209: arm-linux-gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:2199: checking for strings.h
+configure:2209: arm-linux-gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:2199: checking for arpa/inet.h
+configure:2209: arm-linux-gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:2237: checking for size_t
+configure:2270: checking for mode_t
+configure:2303: checking for off_t
+configure:2337: checking for speed_t
+configure:2392: checking for st_rdev in struct stat
+configure:2405: arm-linux-gcc -c -g -O2  conftest.c 1>&5
+configure:2426: checking whether time.h and sys/time.h may both be included
+configure:2440: arm-linux-gcc -c -g -O2  conftest.c 1>&5
+configure:2462: checking for socklen_t
+configure:2483: arm-linux-gcc -c -g -O2  conftest.c 1>&5
+configure:2508: checking whether sys/time.h and sys/select.h may both be included
+configure:2522: arm-linux-gcc -c -g -O2  conftest.c 1>&5
+configure:2543: checking whether struct tm is in sys/time.h or time.h
+configure:2556: arm-linux-gcc -c -g -O2  conftest.c 1>&5
+configure:2578: checking for errno declaration
+configure:2590: arm-linux-gcc -c -g -O2  conftest.c 1>&5
+configure:2660: checking return type of signal handlers
+configure:2682: arm-linux-gcc -c -g -O2  conftest.c 1>&5
+configure:2704: checking for unistd.h
+configure:2743: checking for getpagesize
+configure:2771: arm-linux-gcc -o conftest -g -O2   conftest.c  1>&5
+configure:2796: checking for working mmap
+configure:2969: checking for working alloca.h
+configure:2981: arm-linux-gcc -o conftest -g -O2   conftest.c  1>&5
+configure:3002: checking for alloca
+configure:3035: arm-linux-gcc -o conftest -g -O2   conftest.c  1>&5
+configure:3219: checking for gettimeofday
+configure:3247: arm-linux-gcc -o conftest -g -O2   conftest.c  1>&5
+configure:3219: checking for settimeofday
+configure:3247: arm-linux-gcc -o conftest -g -O2   conftest.c  1>&5
+configure:3274: checking for strchr
+configure:3302: arm-linux-gcc -o conftest -g -O2   conftest.c  1>&5
+configure:3286: warning: conflicting types for built-in function 'strchr'
+configure:3274: checking for memcpy
+configure:3302: arm-linux-gcc -o conftest -g -O2   conftest.c  1>&5
+configure:3286: warning: conflicting types for built-in function 'memcpy'
+configure:3274: checking for select
+configure:3302: arm-linux-gcc -o conftest -g -O2   conftest.c  1>&5
+configure:3274: checking for vprintf
+configure:3302: arm-linux-gcc -o conftest -g -O2   conftest.c  1>&5
+configure:3286: warning: conflicting types for built-in function 'vprintf'
+configure:3329: checking for times
+configure:3357: arm-linux-gcc -o conftest -g -O2   conftest.c  1>&5
+configure:3329: checking for rdchk
+configure:3357: arm-linux-gcc -o conftest -g -O2   conftest.c  1>&5
+/tmp/cciDXq9O.o: In function `main':
+/home/leesy/lrzsz/configure:3351: undefined reference to `rdchk'
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 3334 "configure"
+#include "confdefs.h"
+/* System header to define __stub macros and hopefully few prototypes,
+    which can conflict with char rdchk(); below.  */
+#include <assert.h>
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char rdchk();
+
+int main() {
+
+/* The GNU C library defines this for functions which it implements
+    to always fail with ENOSYS.  Some functions are actually named
+    something starting with __ and the normal name is an alias.  */
+#if defined (__stub_rdchk) || defined (__stub___rdchk)
+choke me
+#else
+rdchk();
+#endif
+
+; return 0; }
+configure:3329: checking for utime
+configure:3357: arm-linux-gcc -o conftest -g -O2   conftest.c  1>&5
+configure:3329: checking for syslog
+configure:3357: arm-linux-gcc -o conftest -g -O2   conftest.c  1>&5
+configure:3329: checking for siginterrupt
+configure:3357: arm-linux-gcc -o conftest -g -O2   conftest.c  1>&5
+configure:3384: checking for mkdir
+configure:3412: arm-linux-gcc -o conftest -g -O2   conftest.c  1>&5
+configure:3384: checking for mktime
+configure:3412: arm-linux-gcc -o conftest -g -O2   conftest.c  1>&5
+configure:3384: checking for strerror
+configure:3412: arm-linux-gcc -o conftest -g -O2   conftest.c  1>&5
+configure:3384: checking for strstr
+configure:3412: arm-linux-gcc -o conftest -g -O2   conftest.c  1>&5
+configure:3396: warning: conflicting types for built-in function 'strstr'
+configure:3384: checking for strdup
+configure:3412: arm-linux-gcc -o conftest -g -O2   conftest.c  1>&5
+configure:3396: warning: conflicting types for built-in function 'strdup'
+configure:3384: checking for strtoul
+configure:3412: arm-linux-gcc -o conftest -g -O2   conftest.c  1>&5
+configure:3384: checking for strtol
+configure:3412: arm-linux-gcc -o conftest -g -O2   conftest.c  1>&5
+configure:3384: checking for strpbrk
+configure:3412: arm-linux-gcc -o conftest -g -O2   conftest.c  1>&5
+configure:3396: warning: conflicting types for built-in function 'strpbrk'
+configure:3441: checking for stpcpy
+configure:3469: arm-linux-gcc -o conftest -g -O2   conftest.c  1>&5
+configure:3453: warning: conflicting types for built-in function 'stpcpy'
+configure:3441: checking for strftime
+configure:3469: arm-linux-gcc -o conftest -g -O2   conftest.c  1>&5
+configure:3453: warning: conflicting types for built-in function 'strftime'
+configure:3441: checking for vasprintf
+configure:3469: arm-linux-gcc -o conftest -g -O2   conftest.c  1>&5
+configure:3497: checking for getopt_long
+configure:3525: arm-linux-gcc -o conftest -g -O2   conftest.c  1>&5
+configure:3555: checking for ftime
+configure:3583: arm-linux-gcc -o conftest -g -O2   conftest.c  1>&5
+configure:3598: checking that ftime works correctly
+configure:3669: checking for timezone variable
+configure:3682: arm-linux-gcc -o conftest -g -O2   conftest.c  1>&5
+configure:3708: checking for LOG_UUCP
+configure:3766: checking for argz.h
+configure:3776: arm-linux-gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:3766: checking for limits.h
+configure:3766: checking for locale.h
+configure:3776: arm-linux-gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:3766: checking for nl_types.h
+configure:3776: arm-linux-gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:3766: checking for malloc.h
+configure:3776: arm-linux-gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:3766: checking for string.h
+configure:3776: arm-linux-gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:3766: checking for unistd.h
+configure:3766: checking for sys/param.h
+configure:3806: checking for getcwd
+configure:3834: arm-linux-gcc -o conftest -g -O2   conftest.c  1>&5
+configure:3806: checking for munmap
+configure:3834: arm-linux-gcc -o conftest -g -O2   conftest.c  1>&5
+configure:3806: checking for putenv
+configure:3834: arm-linux-gcc -o conftest -g -O2   conftest.c  1>&5
+configure:3806: checking for setenv
+configure:3834: arm-linux-gcc -o conftest -g -O2   conftest.c  1>&5
+configure:3806: checking for setlocale
+configure:3834: arm-linux-gcc -o conftest -g -O2   conftest.c  1>&5
+configure:3806: checking for strchr
+configure:3806: checking for strcasecmp
+configure:3834: arm-linux-gcc -o conftest -g -O2   conftest.c  1>&5
+configure:3818: warning: conflicting types for built-in function 'strcasecmp'
+configure:3806: checking for strdup
+configure:3806: checking for __argz_count
+configure:3834: arm-linux-gcc -o conftest -g -O2   conftest.c  1>&5
+configure:3806: checking for __argz_stringify
+configure:3834: arm-linux-gcc -o conftest -g -O2   conftest.c  1>&5
+configure:3806: checking for __argz_next
+configure:3834: arm-linux-gcc -o conftest -g -O2   conftest.c  1>&5
+configure:3925: checking for LC_MESSAGES
+configure:3937: arm-linux-gcc -o conftest -g -O2   conftest.c  1>&5
+configure:3958: checking whether NLS is requested
+configure:3978: checking whether included gettext is requested
+configure:3997: checking for libintl.h
+configure:4007: arm-linux-gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:4024: checking for gettext in libc
+configure:4036: arm-linux-gcc -o conftest -g -O2   conftest.c  1>&5
+configure:4150: checking for msgfmt
+configure:4184: checking for dcgettext
+configure:4212: arm-linux-gcc -o conftest -g -O2   conftest.c  1>&5
+configure:4196: warning: conflicting types for built-in function 'dcgettext'
+configure:4239: checking for gmsgfmt
+configure:4275: checking for xgettext
+configure:4315: arm-linux-gcc -o conftest -g -O2   conftest.c  1>&5
+configure:4773: checking for catalogs to be installed
